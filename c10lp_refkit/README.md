@@ -21,9 +21,9 @@ https://store.iar.com/product/ADA-MIPI20-RISCV12
 | 1| 1|TDO  |P6_IO1|B19|
 | 2| 7|TDI  |P6_IO5|A18|
 | 3| 2|nTRST|P6_IO2|A19|
-| 4| 8|TMS  |P6_IO6|A13|
+| 4| 8|TMS  |P6_IO6|B18|
 | 5| 3|TCK  |P6_IO3|B20|
-| 6| 9|nRST |P6_IO7|B13|
+| 6| 9|nRST |P6_IO7|A17|
 | 7| 4|-    |
 | 8|10|-    |
 | 9| 5|GND  |
