@@ -16,20 +16,20 @@ TODO JTAG pin assign:
 
 https://store.iar.com/product/ADA-MIPI20-RISCV12
 
-| #|Pmod|Signal|
-|--|--|--|
-| 1| 1|TDO|
-| 2| 7|TDI|
-| 3| 2|nTRST|
-| 4| 8|TMS|
-| 5| 3|TCK|
-| 6| 9|nRST|
-| 7| 4|-|
-| 8|10|-|
-| 9| 5|GND|
-|10|11|GND|
-|11| 6|VREF|
-|12|12|VREF|
+| #|##|Signal|Net|Pad|
+|--|--|--|--|--|
+| 1| 1|TDO  |P6_IO1|B19|
+| 2| 7|TDI  |P6_IO5|A18|
+| 3| 2|nTRST|P6_IO2|A19|
+| 4| 8|TMS  |P6_IO6|A13|
+| 5| 3|TCK  |P6_IO3|B20|
+| 6| 9|nRST |P6_IO7|B13|
+| 7| 4|-    |
+| 8|10|-    |
+| 9| 5|GND  |
+|10|11|GND  |
+|11| 6|VREF |
+|12|12|VREF |
 
 
 
