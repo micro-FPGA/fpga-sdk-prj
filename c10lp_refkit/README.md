@@ -5,7 +5,7 @@ https://shop.trenz-electronic.de/de/TEI0009-02-055-8CA-Cyclone-10-LP-RefKit-10CL
 
 Note: there is no new object file, de10lite hex file works, and mini monitor starts UART baudrate 115200
 
-WiP test JTAG
+JTAG is mapped to P6 PMOD (the left most one close to usb connector) pinoput for this adapter:
 
 https://store.iar.com/product/ADA-MIPI20-RISCV12
 
@@ -26,6 +26,10 @@ Note: nTRST pin on this adapter goes to unpopulated 2mm pin header holes only so
 |11| 6|VREF |
 |12|12|VREF |
 
+Debug test status: 
+* Segger Embedded Studio OK
+* IAR JTAG detect OK, debug fail (failed to get CPU status)
+* Open OCD - not tested
 
 
 
