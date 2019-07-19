@@ -2,14 +2,14 @@ Initial port of SCR1 to Cyclone C10LP Refkit
 
 https://shop.trenz-electronic.de/de/TEI0009-02-055-8CA-Cyclone-10-LP-RefKit-10CL055-Development-Board-32-MByte-SDRAM-16-MByte-Flash
 
-UART 115200
 
-Note:
-there is no new object file, de10lite hex file works, and mini monitor starts 
+Note: there is no new object file, de10lite hex file works, and mini monitor starts UART baudrate 115200
 
 WiP test JTAG
 
 https://store.iar.com/product/ADA-MIPI20-RISCV12
+
+Note: nTRST pin on this adapter goes to unpopulated 2mm pin header holes only so it would not have contact to PMOD pin.
 
 | #|##|Signal|Net|Pad|
 |--|--|--|--|--|
