@@ -5,7 +5,7 @@ https://shop.trenz-electronic.de/de/TEI0009-02-055-8CA-Cyclone-10-LP-RefKit-10CL
 
 Note: there is no new object file, de10lite hex file works, and mini monitor starts UART baudrate 115200
 
-JTAG is mapped to P6 PMOD (the left most one close to usb connector) pinoput for this adapter:
+JTAG is mapped to P6 PMOD (the left most one close to usb connector) pinout for this adapter:
 
 https://store.iar.com/product/ADA-MIPI20-RISCV12
 
