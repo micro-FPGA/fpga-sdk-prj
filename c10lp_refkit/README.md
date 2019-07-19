@@ -27,9 +27,11 @@ Note: nTRST pin on this adapter goes to unpopulated 2mm pin header holes only so
 |12|12|VREF |
 
 Debug test status: 
-* Segger Embedded Studio OK
-* IAR JTAG detect OK, debug fail (failed to get CPU status)
+* Segger J-Link OK
+* IAR I-Jet OK
 * Open OCD - not tested
+
+Note: for IAR TCK should be set to 1MHz
 
 
 
