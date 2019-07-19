@@ -46,6 +46,8 @@ module c10lp_refkit (
 	 
     input                 [0:0]     KEY,
     
+	 output                [4:0]     PB_LED,
+	 
 	 output                [7:0]     LEDR,
     input                 [4:0]     SW
 );
@@ -222,6 +224,15 @@ logic           uart_waitrequest;
 logic           wb_ack;
 logic  [7:0]    wb_dat;
 logic           read_valid;
+
+
+
+assign PB_LED[0]  = JTAG_TDI; // left
+assign PB_LED[1]  = JTAG_TCK; // up
+assign PB_LED[2]  = riscv_jtag_tdo; // right
+assign PB_LED[3]  = JTAG_TMS; // down
+assign PB_LED[4]  = JTAG_TRST_N; // center
+
 
 
 
